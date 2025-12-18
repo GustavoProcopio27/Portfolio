@@ -1,3 +1,4 @@
+
 export default function ProjectsSummary(){
     return(
 
@@ -8,7 +9,15 @@ export default function ProjectsSummary(){
                 <div>Mobi</div>
             </details>
         
-        
+            <details>
+                <summary>MOBI-DASHBOARD</summary>
+                <div>MOBI-DASHBOARD</div>
+            </details>
+
+            <details>
+                <summary>Fast-Invest</summary>
+                <div>Fast-Invest</div>
+            </details>
         </section>
 
     );

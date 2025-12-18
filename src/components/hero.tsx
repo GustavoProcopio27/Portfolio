@@ -7,8 +7,8 @@ export default function Hero()
                 <p>Oi, sou Gustavo Procópio</p>
                 <p>Desenvolvedor Python e React</p>
 
-                <h2>Baixar Curriculo</h2>
-                <button>PDF</button><button>WORD</button>
+                <a href="/upload/Curriculo-Gustavo-Luiz-da-Silva-Procopio.pdf" download>PDF</a>
+                <a href="/upload/Curriculo-Gustavo-Luiz-da-Silva-Procopio.docx">WORD</a>
             </div>
 
 
