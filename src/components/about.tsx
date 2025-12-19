@@ -77,12 +77,18 @@ export default function About()
                 </summary>
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold hover:opacity-90">
-                    -Menção honrosa na Olimpíada Brasileira de Matemática das Escolas
-                    Públicas – OBMEP 2024.
-                    -Certificado de participação no curso de extensão “MATEMÁTICA
-                    BÁSICA EM AÇÃO:REVISÃO ONLINE COM FOCO NA OBMEP”.
-                    - Certificado de conclusão do evento “Jornada Python da Hashtag” da
-                    instituição de ensino Hashtag Treinamentos.
+                    <p>
+                        -Menção honrosa na Olimpíada Brasileira de Matemática das Escolas
+                        Públicas – OBMEP 2024.
+                    </p>
+                    <p>
+                        -Certificado de participação no curso de extensão “MATEMÁTICA
+                        BÁSICA EM AÇÃO:REVISÃO ONLINE COM FOCO NA OBMEP”.
+                    </p>
+                    <p>
+                        - Certificado de conclusão do evento “Jornada Python da Hashtag” da
+                        instituição de ensino Hashtag Treinamentos.
+                    </p>
 
                 </div>
 
