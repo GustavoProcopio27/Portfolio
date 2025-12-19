@@ -1,0 +1,11 @@
+{
+    "translation": {
+        "headerTitle": "Portifólio",
+        "headerOption1":"Sobre",
+        "headerOption2":"Projetos" ,
+        "headerOption3": "Contato",
+        "heroName":"Oi, sou Gustavo Procópio",
+        "heroText":"Sou técnico em Informática formado no CEFET-RJ com experiência prática em desenvolvimento full-stack, criação de APIs REST e visualização de dados. Trabalhei com projetos web e mobile (React, React Native) e backend em Java (Spring Boot) e Python (Flask/Streamlit). Possuo habilidade em Docker, ambientes Linux e colaboração em times ágeis. Busco posição como desenvolvedor júnior/estagiário para aplicar e ampliar minhas competências",
+        "heroDownload":"Buscando consultar o curriculo?"
+    }
+}

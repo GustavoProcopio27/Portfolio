@@ -1,6 +1,18 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary: #00ff9c;
-  
+html,body{
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
+
+@theme {
+  --color-txt-primary: #0b4f4a;
+  --color-ghostwhite: ghostwhite;
+  --color-text-terciary: #1a1919;
+
+  --color-bg-primary:#d0e0de;
+
+}
+
+
