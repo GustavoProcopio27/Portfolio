@@ -4,8 +4,34 @@
         "headerOption1":"Sobre",
         "headerOption2":"Projetos" ,
         "headerOption3": "Contato",
+
+
         "heroName":"Oi, sou Gustavo Procópio",
-        "heroText":"Sou técnico em Informática formado no CEFET-RJ com experiência prática em desenvolvimento full-stack, criação de APIs REST e visualização de dados. Trabalhei com projetos web e mobile (React, React Native) e backend em Java (Spring Boot) e Python (Flask/Streamlit). Possuo habilidade em Docker, ambientes Linux e colaboração em times ágeis. Busco posição como desenvolvedor júnior/estagiário para aplicar e ampliar minhas competências",
-        "heroDownload":"Buscando consultar o curriculo?"
+        "heroText":"Sou {{formation}} formado no CEFET-RJ com experiência prática em desenvolvimento full-stack, criação de APIs REST e visualização de dados. Trabalhei com projetos web e mobile (React, React Native) e backend em Java (Spring Boot) e Python (Flask/Streamlit). Possuo habilidade em Docker, ambientes Linux e colaboração em times ágeis. Busco posição como desenvolvedor júnior/estagiário para aplicar e ampliar minhas competências",
+        "heroFormation":"técnico em Informática",
+        "heroFrontendStack": "React, React Native",
+        "heroBackendTech": "Java (Spring Boot)",
+        "heroPythonTech": "Python (Flask/Streamlit)",
+        "heroWorkEnvironment": "Docker, ambientes Linux e colaboração em times ágeis",        
+        "heroDownload":"Buscando baixar o currículo?",
+
+
+
+        "aboutTitle":"Sobre",
+        "aboutOption1":"Quais habilidades você tem?",
+        "aboutOption1Language":"Linguagens",
+        "aboutOption1Tools":"Ferramentas",
+
+        "aboutOption2":"Quais idiomas você fala?",
+        "aboutOption2Text1":"Português - Nativo",
+        "aboutOption2Text2":"Inglês - Intermediário",
+
+        "aboutOption3":"Qual formação acadêmica você tem?",
+        "aboutOption3Text1":"Ensino médio",
+        "aboutOption3Text2":"Curso Técnico informática",
+
+        
+        "aboutOption4":"Quais certificações você possui?"
+
     }
 }
