@@ -13,7 +13,7 @@ export default function About()
                     <span className="text-2xl font-semibold text-txt-primary">Quais habilidades você tem?</span>
                 </summary>
 
-                <div className="bg-teal-400 p-6 rounded-2xl mt-8">
+                <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold hover:opacity-90">
                     <ul>
                         <li>Linguagens: Java, Python, PHP, JavaScript, HTML, CSS, Markdown.</li>
                         <li>Frameworks: Flask, Streamlit, Spring.</li>
@@ -36,7 +36,7 @@ export default function About()
                 </summary>
 
 
-                <div className="bg-teal-400 p-6 rounded-2xl mt-8">
+                <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold hover:opacity-90">
                     <p>Português - Nativo</p>
                     <p>Inglês - Intermediário</p>
                 </div>
@@ -56,8 +56,8 @@ export default function About()
 
 
 
-                <div className="bg-teal-400 p-6 rounded-2xl mt-8">
-                    <p>Ensino médio - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca </p>
+                <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold hover:opacity-90">
+                    <p>Ensino médio - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca (2023-2025)</p>
                     <p>Curso Técnico informática - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca (2023-2025)</p>
                 </div>
             </details>
@@ -76,10 +76,16 @@ export default function About()
                     <span className="text-2xl font-semibold text-txt-primary">Quais certificações você possui?</span>   
                 </summary>
 
+                <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold hover:opacity-90">
+                    -Menção honrosa na Olimpíada Brasileira de Matemática das Escolas
+                    Públicas – OBMEP 2024.
+                    -Certificado de participação no curso de extensão “MATEMÁTICA
+                    BÁSICA EM AÇÃO:REVISÃO ONLINE COM FOCO NA OBMEP”.
+                    - Certificado de conclusão do evento “Jornada Python da Hashtag” da
+                    instituição de ensino Hashtag Treinamentos.
 
-                <div className="bg-teal-400 p-6 rounded-2xl mt-8">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, sequi? Architecto aspernatur fuga amet reprehenderit necessitatibus id? Assumenda quas obcaecati velit mollitia illo, quae impedit placeat. Porro repellendus adipisci odit.
                 </div>
+
             </details>
 
         </section>

@@ -1,4 +1,7 @@
 
+import { DiMysql, DiPhp, DiJsBadge, DiJava, DiPython, DiReact } from "react-icons/di";
+import { GrSystem,GrDocker } from "react-icons/gr";
+
 export default function ProjectsSummary(){
     return(
 
@@ -14,13 +17,31 @@ export default function ProjectsSummary(){
                     
                     <h2 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-3xl">Principais tecnológias utilizadas</h2>
                     <ul>
-                        <li>React-Native</li>
-                        <li>Java Springboot</li>
-                        <li>MySQL</li>
-                        <li>Serviços systemd</li>
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiReact size={30}/></span>
+                            <span>React-Native</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiJava size={30} /></span>
+                            <span>Java Springboot</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiMysql size={30} /></span>
+                            <span>MySQL</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span> <GrSystem size={30} /></span>
+                            <span>Serviços systemd</span>
+                        </li>
+
                     </ul>
+
+
                     <div className="flex justify-center">
-                        <button className="cursor-pointer w-48 text-white bg-[#fb4b14] border border-white p-3 rounded-2xl font-bold hover:bg-[#fa6335] active:scale-95 transition-all duration-200">
+                        <button className="cursor-pointer w-48 text-white bg-[#fb4b14] border border-white p-3 rounded-2xl font-bold hover:opacity-80 active:scale-95 transition-all duration-200">
                             Ler mais
                         </button>
                     </div>
@@ -35,11 +56,30 @@ export default function ProjectsSummary(){
 
                     <h2 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-3xl"> Principais tecnológias utilizadas</h2>
                     <ul>
-                        <li>React</li>
-                        <li>Python - Flask Streamlit Pandas Scikit-Learn</li>
-                        <li>MySQL</li>
-                        <li>Docker</li>
-                        <li>Serviços systemd</li>
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiReact size={30} /></span>
+                            <span>React</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiPython size={30} /></span>
+                            <span>Python - Flask Streamlit Pandas Scikit-Learn</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiMysql size={30} /></span>
+                            <span>MySQL</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><GrDocker size={30} /></span>
+                            <span>Docker</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><GrSystem size={30} /></span>
+                            <span>Serviços systemd</span>
+                        </li>
                     </ul>
 
                     <div className="flex justify-center">
@@ -56,10 +96,25 @@ export default function ProjectsSummary(){
 
                     <h2 className="text-center bg-linear-to-r from-[#00b366] to-[#009f5c] bg-clip-text text-transparent font-extrabold text-3xl">Principais tecnológias utilizadas</h2>
                     <ul>
-                        <li>React</li>
-                        <li>Java Springboot</li>
-                        <li>MySQL</li>
-                        <li>Serviços systemd</li>
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiReact size={30} /></span>
+                            <span>React</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiJava size={30} /></span>
+                            <span>Java Springboot</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiMysql size={30} /></span>
+                            <span>MySQL</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><GrDocker size={30} /></span>
+                            <span>Docker</span>
+                        </li>
                     </ul>
 
                     <div className="flex justify-center">
@@ -76,9 +131,20 @@ export default function ProjectsSummary(){
 
                     <h2 className="text-center bg-linear-to-r from-black to-[#b951d8] bg-clip-text text-transparent font-extrabold text-3xl">Principais tecnológias utilizadas</h2>
                     <ul>
-                        <li>HTML,CSS,JavaScript</li>
-                        <li>PHP</li>
-                        <li>MySQL</li>
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiJsBadge size={30} /></span>
+                            <span>HTML,CSS,JavaScript</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiPhp size={30} /></span>
+                            <span>PHP</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><DiMysql size={30} /></span>
+                            <span>MySQL</span>
+                        </li>
                     </ul>
 
                     <div className="flex justify-center">
