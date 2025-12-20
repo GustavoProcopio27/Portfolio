@@ -1,0 +1,60 @@
+{
+    "translation": {
+        
+        "headerTitle": "Portfolio",
+        "headerOption1":"About",
+        "headerOption2":"Projects" ,
+        "headerOption3": "Contact",
+
+
+        "heroName":"Hi, i´m Gustavo Procópio",
+        "heroText1":"I´m an ",
+        "heroText2": "IT Technician ", 
+        "heroText3":"graduated fro CEFET-RJ, with hands-on experience in full-stack development, REST API creation, and data analysis and visualization",
+        "heroText4":"I´ve worked with web and mobile projects",
+        "heroText5":"(React, React Native) ",
+        "heroText6":"and backend development using ",
+        "heroText7":"Java (Spring Boot) ",
+        "heroText8":"and ", 
+        "heroText9":"Python (Flask/Streamlit).", 
+        "heroText10":"I have skills in ",
+        "heroText11":"Docker, Linux environments and collaboration within agile teams.", 
+        "heroText12":"I'm seeking a junior developer or internship position to apply and further develop my skills.",
+       
+        "heroDownload":"My curriculum is available in the below buttons",
+
+
+
+        "aboutTitle":"Sobre",
+        "aboutOption1":"Quais habilidades você tem?",
+        "aboutOption1Language":"Linguagens",
+        "aboutOption1Tools":"Ferramentas",
+
+        "aboutOption2":"Quais idiomas você fala?",
+        "aboutOption2Text1":"Português - Nativo",
+        "aboutOption2Text2":"Inglês - Intermediário",
+
+        "aboutOption3":"Qual formação acadêmica você tem?",
+        "aboutOption3Text1":"Ensino médio",
+        "aboutOption3Text2":"Curso Técnico informática",
+
+        
+        "aboutOption4":"Quais certificações você possui?",
+        "aboutOption4Text1":"- Menção honrosa na Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2024.",
+        "aboutOption4Text2":"- Certificado de participação no curso de extensão “MATEMÁTICA BÁSICA EM AÇÃO:REVISÃO ONLINE COM FOCO NA OBMEP”.",
+        "aboutOption4Text3":"- Certificado de conclusão do evento “Jornada Python da Hashtag” da instituição de ensino Hashtag Treinamentos.",
+        
+
+
+
+        "projectsTitle":"Projetos",
+        "projectTech":"Principais tecnológias utilizadas",
+        "projectInfo":"Ler mais",
+
+
+
+
+        "contactsTitle":"Contatos",
+        "copyrightText":"Todos direitos reservados"
+    }
+}

@@ -1,19 +1,27 @@
 {
     "translation": {
-        "headerTitle": "Portifólio",
+        
+        "headerTitle": "Portfólio",
         "headerOption1":"Sobre",
         "headerOption2":"Projetos" ,
         "headerOption3": "Contato",
 
 
         "heroName":"Oi, sou Gustavo Procópio",
-        "heroText":"Sou {{formation}} formado no CEFET-RJ com experiência prática em desenvolvimento full-stack, criação de APIs REST e visualização de dados. Trabalhei com projetos web e mobile (React, React Native) e backend em Java (Spring Boot) e Python (Flask/Streamlit). Possuo habilidade em Docker, ambientes Linux e colaboração em times ágeis. Busco posição como desenvolvedor júnior/estagiário para aplicar e ampliar minhas competências",
-        "heroFormation":"técnico em Informática",
-        "heroFrontendStack": "React, React Native",
-        "heroBackendTech": "Java (Spring Boot)",
-        "heroPythonTech": "Python (Flask/Streamlit)",
-        "heroWorkEnvironment": "Docker, ambientes Linux e colaboração em times ágeis",        
-        "heroDownload":"Buscando baixar o currículo?",
+        "heroText1":"Sou ",
+        "heroText2": "técnico em Informática ", 
+        "heroText3":"formado no CEFET-RJ com experiência prática em desenvolvimento full-stack, criação de APIs REST e visualização de dados.",
+        "heroText4":"Trabalhei com projetos web e mobile ",
+        "heroText5":"(React, React Native) ",
+        "heroText6":"e backend usando ",
+        "heroText7":"Java (Spring Boot) ",
+        "heroText8":"e ", 
+        "heroText9":"Python (Flask/Streamlit).", 
+        "heroText10":"Possuo habilidade em ",
+        "heroText11":"Docker, ambientes Linux e colaboração em times ágeis.", 
+        "heroText12":"Busco posição como desenvolvedor júnior/estagiário para aplicar e ampliar minhas competências",
+       
+        "heroDownload":"Meu currículo está disponível nos botões abaixo",
 
 
 
@@ -31,7 +39,22 @@
         "aboutOption3Text2":"Curso Técnico informática",
 
         
-        "aboutOption4":"Quais certificações você possui?"
+        "aboutOption4":"Quais certificações você possui?",
+        "aboutOption4Text1":"- Menção honrosa na Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2024.",
+        "aboutOption4Text2":"- Certificado de participação no curso de extensão “MATEMÁTICA BÁSICA EM AÇÃO:REVISÃO ONLINE COM FOCO NA OBMEP”.",
+        "aboutOption4Text3":"- Certificado de conclusão do evento “Jornada Python da Hashtag” da instituição de ensino Hashtag Treinamentos.",
+        
 
+
+
+        "projectsTitle":"Projetos",
+        "projectTech":"Principais tecnológias utilizadas",
+        "projectInfo":"Ler mais",
+
+
+
+
+        "contactsTitle":"Contatos",
+        "copyrightText":"Todos direitos reservados"
     }
 }
