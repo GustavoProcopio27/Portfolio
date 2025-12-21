@@ -26,7 +26,7 @@ export default function About()
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
                     <ul>
-                        <li>{t("about.skills.text")}: Java, Python, PHP, JavaScript, HTML, CSS, Markdown.</li>
+                        <li>{t("about.skills.languages")}: Java, Python, PHP, JavaScript, HTML, CSS, Markdown.</li>
                         <li>Frameworks: Flask, Streamlit, Spring.</li>
                         <li>{t("about.skills.tools")}: Docker, Linux, Windows, Git, MySQL.</li>
                         <li>Soft-Skills: {t("about.skills.soft-skills")}</li>
