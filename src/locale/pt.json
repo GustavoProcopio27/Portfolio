@@ -1,60 +1,70 @@
 {
-    "translation": {
-        
-        "headerTitle": "Portfólio",
-        "headerOption1":"Sobre",
-        "headerOption2":"Projetos" ,
-        "headerOption3": "Contato",
+
+    "navbar": {
+        "title": "Portfólio",
+        "about": "Sobre",
+        "projects": "Projetos",
+        "contact": "Contato"
+    },
+    "hero": {
+        "name": "Oi, sou Gustavo Procópio",
+        "iam": "Sou um ",
+        "profession": "técnico em Informática ",
+        "graduation_experience": "formado no CEFET-RJ, com experiência prática em desenvolvimento full-stack, criação de APIs REST e análise e visualização de dados.",
+        "work_front": "Trabalhei com projetos web e mobile ",
+        "tech_front": "(React, React Native) ",
+        "work_back": "e backend usando ",
+        "tech_back1": "Java (Spring Boot) ",
+        "&": "e ",
+        "tech_back2": "Python (Flask/Streamlit).",
+        "skills1": " Possuo habilidades em ",
+        "skills2": "Docker, ambientes Linux e colaboração em times ágeis.",
+        "objective": "Busco posição como desenvolvedor júnior/estagiário para aplicar e ampliar minhas competências.",
+        "download": "Meu currículo está disponível nos botões abaixo"
+    },
+    "about": {
+        "title": "Sobre",
+        "skills": {
+            "text": "Quais habilidades você tem?",
+            "languages": "Linguagens",
+            "tools": "Ferramentas",
+            "soft-skills":"Solução de problemas, Paciência, Gestão do Tempo."
+        },
+        "languages": {
+            "text": "Quais idiomas você fala?",
+            "english": "Inglês - Intermediário",
+            "portuguese": "Português - Fluente"
+        },
+        "education": {
+            "text": "Qual formação acadêmica você tem?",
+            "main": "Ensino médio",
+            "technical": "Curso técnico em Informática"
+        },
+        "certificates": {
+            "text": "Quais certificações você possui?",
+            "obmep": "- Menção honrosa na Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2024.",
+            "hashtag": "- Certificado de conclusão do evento “Jornada Python da Hashtag” da instituição Hashtag Treinamentos."
+        }
+    },
+    "projects": {
+        "title": "Projetos",
+        "mainTech": "Principais tecnologias utilizadas",
+        "moreInfo": "Ler mais",
+        "mobiText":"O Mobi é uma aplicação mobile interativa desenvolvida para coleta de a respeito dados de transporte urbano e deslocamento de alunos e funcionários do CEFET-RJ. A ferramenta visa também fomentar melhorias na experiência de mobilidade da comunidade acadêmica, com base em dados reais.",
+        "mobiDashboardText":"O Mobi Dashboards é uma aplicação web interativa desenvolvida para visualização e extração de insights a partir dos dados de transporte urbano e deslocamento de alunos e funcionários do CEFET-RJ. A ferramenta visa também fomentar melhorias na experiência de mobilidade da comunidade acadêmica, com base em dados reais coletados via aplicativo MOBI.",
+        "fastInvestText":"O Fast Invest é uma aplicação web interativa voltada para investidores que desejam organizar, analisar e acompanhar seus investimentos de forma prática e personalizada. A plataforma foi projetada para oferecer ferramentas avançadas de filtragem, monitoramento e análise de ações, auxiliando o usuário a tomar decisões informadas e estratégicas no mercado financeiro.",
+        "locadoraCefetText":"Trabalho desenvolvido nas aulas de Web no CEFET-RJ UNED Nova Iguaçu. Durante o desenvolvimento ocorreu o primeiro contato com métodos HTTP e operações"
+    },
+    "contacts": "Contatos",
+    "copyrightText": "Todos os direitos reservados",
 
 
-        "heroName":"Oi, sou Gustavo Procópio",
-        "heroText1":"Sou ",
-        "heroText2": "técnico em Informática ", 
-        "heroText3":"formado no CEFET-RJ com experiência prática em desenvolvimento full-stack, criação de APIs REST e visualização de dados.",
-        "heroText4":"Trabalhei com projetos web e mobile ",
-        "heroText5":"(React, React Native) ",
-        "heroText6":"e backend usando ",
-        "heroText7":"Java (Spring Boot) ",
-        "heroText8":"e ", 
-        "heroText9":"Python (Flask/Streamlit).", 
-        "heroText10":"Possuo habilidade em ",
-        "heroText11":"Docker, ambientes Linux e colaboração em times ágeis.", 
-        "heroText12":"Busco posição como desenvolvedor júnior/estagiário para aplicar e ampliar minhas competências",
-       
-        "heroDownload":"Meu currículo está disponível nos botões abaixo",
 
-
-
-        "aboutTitle":"Sobre",
-        "aboutOption1":"Quais habilidades você tem?",
-        "aboutOption1Language":"Linguagens",
-        "aboutOption1Tools":"Ferramentas",
-
-        "aboutOption2":"Quais idiomas você fala?",
-        "aboutOption2Text1":"Português - Nativo",
-        "aboutOption2Text2":"Inglês - Intermediário",
-
-        "aboutOption3":"Qual formação acadêmica você tem?",
-        "aboutOption3Text1":"Ensino médio",
-        "aboutOption3Text2":"Curso Técnico informática",
-
-        
-        "aboutOption4":"Quais certificações você possui?",
-        "aboutOption4Text1":"- Menção honrosa na Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2024.",
-        "aboutOption4Text2":"- Certificado de participação no curso de extensão “MATEMÁTICA BÁSICA EM AÇÃO:REVISÃO ONLINE COM FOCO NA OBMEP”.",
-        "aboutOption4Text3":"- Certificado de conclusão do evento “Jornada Python da Hashtag” da instituição de ensino Hashtag Treinamentos.",
-        
-
-
-
-        "projectsTitle":"Projetos",
-        "projectTech":"Principais tecnológias utilizadas",
-        "projectInfo":"Ler mais",
-
-
-
-
-        "contactsTitle":"Contatos",
-        "copyrightText":"Todos direitos reservados"
+    "placeholder": {
+        "warning": "$ página não criada ainda",
+        "return": "- retorno no futuro",
+        "cu": "- Até logo",
+        "back": "Clique aqui para voltar"
     }
+
 }
