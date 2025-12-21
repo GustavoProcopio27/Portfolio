@@ -92,7 +92,7 @@ export default function ProjectsSummary(){
                 {/* ------------------------------------------------    MOBI-DASHBOARD ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl p-6 border-4 border-[#fb4b14] shadow-xl hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 flex flex-col justify-center gap-4">
                     <img className=" border-2 border-[#fb4b14] rounded-xl shadow-xl hover:scale-102" src={dashboardFoto} alt="mobi-dashboard" />
-                    <h1 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-5xl truncated"> MOBI-DASHBOARD</h1>
+                    <h1 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-5xl break-all"> MOBI-DASHBOARD</h1>
                     <span className="text-justify">{t("projects.mobiDashboardText")}</span>
 
                     <h2 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
@@ -152,7 +152,7 @@ export default function ProjectsSummary(){
                 {/* ------------------------------------------------ FAST-INVEST ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl border-4 p-6 border-[#009f5c] hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 shadow-xl flex flex-col justify-center gap-4 ">
                     <img className=" border-2 border-[#009f5c] rounded-xl shadow-xl hover:scale-102" src={fastInvestFoto} alt="fastinvest" />
-                    <h1 className="text-center bg-linear-to-r from-[#00b366] to-[#009f5c] bg-clip-text tenxt-trasparent font-extrabold text-5xl truncated">FAST-INVEST</h1>
+                    <h1 className="text-center bg-linear-to-r from-[#00b366] to-[#009f5c] bg-clip-text tenxt-trasparent font-extrabold text-5xl break-all">FAST-INVEST</h1>
                     <span className="text-justify">{t("projects.fastInvestText")}</span>
 
                     <h2 className="text-center bg-linear-to-r from-[#00b366] to-[#009f5c] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
@@ -202,14 +202,14 @@ export default function ProjectsSummary(){
                 {/* ------------------------------------------------ LOCADORA PHP ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl border-4 p-6 border-gray-700 hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 shadow-xl flex flex-col justify-center gap-4">
                     <img className="border-3 rounded-xl border-[#b951d8] shadow-xl hover:scale-102" src={locadoraFoto} alt="locadora php" />
-                    <h1 className="text-center bg-linear-to-r from-black to-[#b951d8] bg-clip-text tenxt-trasparent font-extrabold text-5xl truncated"> Locadora PHP</h1>
+                    <h1 className="text-center bg-linear-to-r from-black to-[#b951d8] bg-clip-text tenxt-trasparent font-extrabold text-5xl break-all"> Locadora PHP</h1>
                     <span className="text-justify">{t("projects.locadoraCefetText")}</span>
 
                     <h2 className="text-center bg-linear-to-r from-black to-[#b951d8] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
                     <ul>
                         <li className="flex flex-row gap-2 items-center">
                             <span className="flex flex-row gap-2"><DiHtml5 size={25} /><SiCsswizardry size={25} /><DiJsBadge size={25} /></span>
-                            <span>HTML,CSS,JavaScript</span>
+                            <span>HTML, CSS, JavaScript</span>
                         </li>
 
                         <li className="flex flex-row gap-2 items-center">

@@ -26,10 +26,10 @@ export default function About()
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
                     <ul>
-                        <li>{t("about.skills.languages")}: Java, Python, PHP, JavaScript, HTML, CSS, Markdown.</li>
-                        <li>Frameworks: Flask, Streamlit, Spring.</li>
-                        <li>{t("about.skills.tools")}: Docker, Linux, Windows, Git, MySQL.</li>
-                        <li>Soft-Skills: {t("about.skills.soft-skills")}</li>
+                        <li>{t("about.skills.languages")}: Java, Python, PHP, JavaScript, HTML, CSS, Markdown.</li><br />
+                        <li>Frameworks: Flask, Streamlit, Spring.</li><br />
+                        <li>{t("about.skills.tools")}: Docker, Linux, Windows, Git, MySQL.</li><br />
+                        <li>Soft-Skills: {t("about.skills.soft-skills")}</li><br />
                     </ul>
                 </div>
             </details>
@@ -48,7 +48,7 @@ export default function About()
 
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
-                    <p>{t("about.languages.portuguese")}</p>
+                    <p>{t("about.languages.portuguese")}</p><br />
                     <p>{t("about.languages.english")}</p>
                 </div>
             </details>
@@ -68,7 +68,7 @@ export default function About()
 
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
-                    <p>{t("about.education.main")} - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca (2023-2025)</p>
+                    <p>{t("about.education.main")} - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca (2023-2025)</p><br />
                     <p>{t("about.education.technical")} - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca (2023-2025)</p>
                 </div>
             </details>
