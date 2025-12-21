@@ -1,10 +1,15 @@
-
 import { DiMysql, DiPhp, DiJsBadge, DiHtml5, DiJava, DiPython, DiReact, DiAndroid } from "react-icons/di";
 import { SiCsswizardry } from "react-icons/si";
-
 import { GrSystem,GrDocker } from "react-icons/gr";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import mobiFoto from "/icons/projects/mobi/login.png";
+import dashboardFoto from "/icons/projects/mobi_dashboard/tela-inicio-dashboard.png";
+import fastInvestFoto from "/icons/projects/fast_invest/home.png";
+import locadoraFoto from "/icons/projects/locadora_php/home.png";
+import waveUp from "/icons/utils/wave-up.svg";
+import waveDown from "/icons/utils/wave-down.svg";
+
 
 export default function ProjectsSummary(){
     const navigate = useNavigate()
@@ -12,7 +17,7 @@ export default function ProjectsSummary(){
 
     return(
         <>
-        <div className="w-full aspect-[4] bg-no-repeat bg-center bg-cover" style={{backgroundImage: "url('/icons/utils/wave-up.svg')"}}/>
+            <div className="w-full aspect-[4] bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url(${waveUp})`}}/>
 
             <section id="Projetos" className="flex flex-col gap-6 p-12 bg-[#abebdc] max-sm:p-4" >
                 <h1 className="text-center bg-linear-to-r p-4 from-teal-900 to-teal-500 bg-clip-text text-transparent font-extrabold text-5xl">{t("projects.title")}</h1>
@@ -28,7 +33,7 @@ export default function ProjectsSummary(){
 
                 {/* ------------------------------------------------ MOBI ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl p-6 border-4 border-[#fb4b14] shadow-xl hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200  flex flex-col justify-center gap-4">
-                    <img className="self-center border-2 border-[#fb4b14] rounded-xl shadow-xl hover:scale-102 w-72 h-72" src="/icons/projects/mobi/login.png" alt="mobi"/>
+                    <img className="self-center border-2 border-[#fb4b14] rounded-xl shadow-xl hover:scale-102 w-72 h-72" src={mobiFoto} alt="mobi"/>
                     <h1 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-5xl"> MOBI</h1>
                     <span className="text-justify">{t("projects.mobiText")}</span>
                     
@@ -86,7 +91,7 @@ export default function ProjectsSummary(){
 
                 {/* ------------------------------------------------    MOBI-DASHBOARD ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl p-6 border-4 border-[#fb4b14] shadow-xl hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 flex flex-col justify-center gap-4">
-                    <img className=" border-2 border-[#fb4b14] rounded-xl shadow-xl hover:scale-102" src="/icons/projects/mobi_dashboard/tela-inicio-dashboard.png" alt="mobi-dashboard" />
+                    <img className=" border-2 border-[#fb4b14] rounded-xl shadow-xl hover:scale-102" src={dashboardFoto} alt="mobi-dashboard" />
                     <h1 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-5xl truncated"> MOBI-DASHBOARD</h1>
                     <span className="text-justify">{t("projects.mobiDashboardText")}</span>
 
@@ -146,7 +151,7 @@ export default function ProjectsSummary(){
 
                 {/* ------------------------------------------------ FAST-INVEST ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl border-4 p-6 border-[#009f5c] hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 shadow-xl flex flex-col justify-center gap-4 ">
-                    <img className=" border-2 border-[#009f5c] rounded-xl shadow-xl hover:scale-102"  src="/icons/projects/fast_invest/home.png" alt="fastinvest" />
+                    <img className=" border-2 border-[#009f5c] rounded-xl shadow-xl hover:scale-102" src={fastInvestFoto} alt="fastinvest" />
                     <h1 className="text-center bg-linear-to-r from-[#00b366] to-[#009f5c] bg-clip-text tenxt-trasparent font-extrabold text-5xl truncated">FAST-INVEST</h1>
                     <span className="text-justify">{t("projects.fastInvestText")}</span>
 
@@ -196,7 +201,7 @@ export default function ProjectsSummary(){
 
                 {/* ------------------------------------------------ LOCADORA PHP ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl border-4 p-6 border-gray-700 hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 shadow-xl flex flex-col justify-center gap-4">
-                    <img className="border-3 rounded-xl border-[#b951d8] shadow-xl hover:scale-102" src="/icons/projects/locadora_php/home.png" alt="locadora php" />
+                    <img className="border-3 rounded-xl border-[#b951d8] shadow-xl hover:scale-102" src={locadoraFoto} alt="locadora php" />
                     <h1 className="text-center bg-linear-to-r from-black to-[#b951d8] bg-clip-text tenxt-trasparent font-extrabold text-5xl truncated"> Locadora PHP</h1>
                     <span className="text-justify">{t("projects.locadoraCefetText")}</span>
 
@@ -236,7 +241,7 @@ export default function ProjectsSummary(){
             </div>
             
         </section>
-        <div className="w-full aspect-[4] bg-no-repeat bg-center bg-cover mb-48" style={{backgroundImage: "url('/icons/utils/wave-down.svg')"}}/>
+        <div className="w-full aspect-[4] bg-no-repeat bg-center bg-cover mb-48" style={{ backgroundImage: `url(${waveDown})`}}/>
 
         </>
     );

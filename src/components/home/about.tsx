@@ -3,6 +3,8 @@ import { FaPlusCircle,FaMinusCircle  } from "react-icons/fa";
 import { RiImageCircleFill } from "react-icons/ri";
 import { IoMdCloseCircle } from "react-icons/io";
 import { useTranslation } from "react-i18next";
+import certificadoHashtagPython from "/icons/utils/python_journey.png";
+import mencaoHonrosaOBMEP from "/icons/utils/obmep.png";
 
 export default function About()
 {
@@ -107,12 +109,12 @@ export default function About()
 
                 <div className={`${isModalOBMEPVisible ? "flex flex-col" : "hidden"} gap-8 z-50 top-50 right-140 p-8 rounded-2xl fixed bg-[rgba(141,250,214,0.7)] backdrop-blur-xs`}>
                     <div><IoMdCloseCircle className="text-teal-950 hover:text-teal-600" size={35} onClick={() => setIsModalOBMEPVisible(false)} /></div>
-                    <div><img className="w-3xl h-xl border-2 border-teal-900 rounded-2xl" src="/icons/utils/obmep.png" alt="menção honrosa" /></div>
+                    <div><img className="w-3xl h-xl border-2 border-teal-900 rounded-2xl" src={mencaoHonrosaOBMEP} alt="menção honrosa" /></div>
                 </div>
 
                 <div className={`${isModalPythonJourneyVisible ? "flex flex-col" : "hidden"} gap-8 z-50 top-50 right-140 p-8 rounded-2xl fixed bg-[rgba(141,250,214,0.7)] backdrop-blur-xs`}>
                     <div><IoMdCloseCircle className="text-teal-950 hover:text-teal-600" size={35} onClick={() => setIsModalPythonJourneyVisible(false)} /></div>
-                    <div><img className="w-3xl h-xl border-2 border-teal-900 rounded-2xl" src="/icons/utils/python_journey.png" alt="certificado python" /></div>
+                    <div><img className="w-3xl h-xl border-2 border-teal-900 rounded-2xl" src={certificadoHashtagPython} alt="certificado python" /></div>
                 </div>
 
         </section>
