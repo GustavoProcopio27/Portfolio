@@ -18,6 +18,6 @@ Este repositório contém o código-fonte do meu **site de portfólio pessoal**,
 - **gh-pages** : Para deploy no github, em uma url com github.io.
 
 
-### Para acessar, [ clique aqui. ](https://gustavoprocopio.github.io/portfolio)
+### Para acessar, [ clique aqui. ](https://gustavoprocopio27.github.io/Portfolio/)
 
 ![Sprigatito](/public/icons/utils/sprigatito.gif)
