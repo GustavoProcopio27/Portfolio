@@ -44,7 +44,9 @@
         },
         "certificates":{
             "text":"What certificates do you have?",
-            "obmep": "- Honorable mention in 'Olimpíada Brasileira de Matemática das Escolas Públicas' – OBMEP 2024.",
+            "obmep2024": "- Honorable mention at the 19ª 'Olimpíada Brasileira de Matemática das Escolas Públicas' – OBMEP 2024.",
+            "obmep2025": "- Honorable mention at the 20ª 'Olimpíada Brasileira de Matemática das Escolas Públicas' – OBMEP 2025.",
+            "premiacaoOBMEP2025": "- State de Bronze Medal at the 20ª 'Olimpíada Brasileira de Matemática das Escolas Públicas' – OBMEP 2025.",
             "hashtag": "- Certificate of completion of the  “Jornada Python da Hashtag” event from the Hashtag Treinamentos educational institution."
         }
     },

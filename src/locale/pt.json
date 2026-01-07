@@ -42,7 +42,9 @@
         },
         "certificates": {
             "text": "Quais certificações você possui?",
-            "obmep": "- Menção honrosa na Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2024.",
+            "obmep2024": "- Menção honrosa na 19ª Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2024.",
+            "obmep2025": "- Menção honrosa na 20ª Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2025.",
+            "premiacaoOBMEP2025":"- Medalha de Bronze Estadual na 20ª Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP 2025.",
             "hashtag": "- Certificado de conclusão do evento “Jornada Python da Hashtag” da instituição Hashtag Treinamentos."
         }
     },
@@ -62,7 +64,7 @@
 
     "placeholder": {
         "warning": "$ página não criada ainda",
-        "return": "- retorno no futuro",
+        "return": "- retorne no futuro",
         "cu": "- Até logo",
         "back": "Clique aqui para voltar"
     }
