@@ -3,13 +3,14 @@ import { useTranslation } from "react-i18next";
 
 export default function Footer(){
     const { t } = useTranslation();
+    const ano = new Date().getFullYear();
 
     return(
 
         <footer id="Contatos" className="flex flex-row p-4  justify-between bg-bg-primary text-gray-900">
             <div className="flex flex-col gap-2 p-8">
                 <span className="max-[500px]:text-xs">Gustavo Luiz da Silva Procópio</span>
-                <span className="max-[500px]:text-xs"> © <b>GustavoBlack</b> 2025 - {t("copyrightText")}. </span>
+                <span className="max-[500px]:text-xs"> © <b>GustavoBlack</b> {ano} - {t("copyrightText")}. </span>
             </div>
             <div className="flex flex-col self- gap-2">
                 <div><span className="text-xl font-semibold">{t("contacts")}</span></div>
