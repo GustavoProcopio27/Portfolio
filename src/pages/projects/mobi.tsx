@@ -6,13 +6,13 @@ import Description from "../../components/projects/description"
 import TechStack from "../../components/projects/techstack";
 import ProjectAcess from "../../components/projects/access";
 
-import cadastro_trecho from "/icons/projects/mobi/cadastro_trecho.jpg";
-import cadastro1 from "/icons/projects/mobi/cadastro1.jpg";
-import cadastro2 from "/icons/projects/mobi/cadastro2.jpg";
-import home from "/icons/projects/mobi/home.jpg";
-import itinerarios from "/icons/projects/mobi/itinerarios.jpg";
-import login from "/icons/projects/mobi/login.jpg";
-import modal from "/icons/projects/mobi/modal.jpg";
+import cadastro_trecho from "/projects/mobi/cadastro_trecho.jpg";
+import cadastro1 from "/projects/mobi/cadastro1.jpg";
+import cadastro2 from "/projects/mobi/cadastro2.jpg";
+import home from "/projects/mobi/home.jpg";
+import itinerarios from "/projects/mobi/itinerarios.jpg";
+import login from "/projects/mobi/login.jpg";
+import modal from "/projects/mobi/modal.jpg";
 
 import TechIcon from "../../components/utils/TechIcon";
 import { FaJava } from "react-icons/fa";
@@ -61,8 +61,7 @@ export default function Mobi() {
         t("mobi.learningsTitle2"),
         t("mobi.learningsTitle3"),
         t("mobi.learningsTitle4"),
-        t("mobi.learningsTitle5"),
-        t("mobi.learningsTitle6"),
+
 
     ]
 
@@ -71,8 +70,7 @@ export default function Mobi() {
         t("mobi.learningText2"),
         t("mobi.learningText3"),
         t("mobi.learningText4"),
-        t("mobi.learningText5"),
-        t("mobi.learningText6"),
+
 
     ]                
 

@@ -7,16 +7,16 @@ import Description from "../../components/projects/description"
 import TechStack from "../../components/projects/techstack";
 import ProjectAcess from "../../components/projects/access";
 
-import wallet from '/icons/projects/fast_invest/wallet.png';
-import wallet_register from '/icons/projects/fast_invest/wallet-register.png';
-import wallet_inside from '/icons/projects/fast_invest/wallet-inside.png';
-import cadastro from '/icons/projects/fast_invest/register.png';
-import wallet_quotation from '/icons/projects/fast_invest/wallet-inside-modal.png';
-import quotation1 from '/icons/projects/fast_invest/quotation.png';
-import quotation2 from '/icons/projects/fast_invest/quotation-2.png';
-import main from '/icons/projects/fast_invest/main.png';
-import home from '/icons/projects/fast_invest/home.png';
-import charts from '/icons/projects/fast_invest/charts.png';
+import wallet from '/projects/fast_invest/wallet.png';
+import wallet_register from '/projects/fast_invest/wallet-register.png';
+import wallet_inside from '/projects/fast_invest/wallet-inside.png';
+import cadastro from '/projects/fast_invest/register.png';
+import wallet_quotation from '/projects/fast_invest/wallet-inside-modal.png';
+import quotation1 from '/projects/fast_invest/quotation.png';
+import quotation2 from '/projects/fast_invest/quotation-2.png';
+import main from '/projects/fast_invest/main.png';
+import home from '/projects/fast_invest/home.png';
+import charts from '/projects/fast_invest/charts.png';
 import { FaDocker, FaJava, FaJs, FaReact } from "react-icons/fa6";
 import TechIcon from "../../components/utils/TechIcon";
 import { SiAxios, SiSpringboot, SiSpringsecurity, SiTailwindcss } from "react-icons/si";

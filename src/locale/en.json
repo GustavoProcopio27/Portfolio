@@ -82,7 +82,7 @@
         "env":"Environment",
         "feat":"Main features",
         "learn":"Learnings",
-        "public_status":" private",
+        "public_status":"private ",
         "repo":"repository",
         "back":"Return to Home Screen",
         "deploy_status":"no deploy"

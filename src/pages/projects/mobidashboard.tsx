@@ -7,12 +7,12 @@ import TechStack from "../../components/projects/techstack";
 import ProjectAcess from "../../components/projects/access";
 import TechIcon from "../../components/utils/TechIcon";
 
-import tela_login from "/icons/projects/mobi_dashboard/tela-login.png"
-import tela_home from "/icons/projects/mobi_dashboard/tela-inicio-dashboard.png"
-import tela_graficos from "/icons/projects/mobi_dashboard/tela-graficos.png"
-import tela_tabelas from "/icons/projects/mobi_dashboard/tela-tabelas.png"
-import tela_gestao from "/icons/projects/mobi_dashboard/tela-gestao-dados-exemplo.png"
-import tela_exportacao from "/icons/projects/mobi_dashboard/tela-exportacao-dados.png"
+import tela_login from "/projects/mobi_dashboard/tela-login.png"
+import tela_home from "/projects/mobi_dashboard/tela-inicio-dashboard.png"
+import tela_graficos from "/projects/mobi_dashboard/tela-graficos.png"
+import tela_tabelas from "/projects/mobi_dashboard/tela-tabelas.png"
+import tela_gestao from "/projects/mobi_dashboard/tela-gestao-dados-exemplo.png"
+import tela_exportacao from "/projects/mobi_dashboard/tela-exportacao-dados.png"
 import { FaDocker, FaJs, FaPython, FaReact } from "react-icons/fa6";
 import { SiFlask, SiNginx, SiPandas, SiPlotly, SiPrimereact, SiPydantic, SiPytest, SiReactrouter, SiScikitlearn, SiSqlalchemy, SiStreamlit } from "react-icons/si";
 import { IcoPlaywright } from "../../components/utils/icons";

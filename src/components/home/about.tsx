@@ -3,10 +3,10 @@ import { FaPlusCircle,FaMinusCircle  } from "react-icons/fa";
 import { RiImageCircleFill } from "react-icons/ri";
 import { IoMdCloseCircle } from "react-icons/io";
 import { useTranslation } from "react-i18next";
-import certificadoHashtagPython from "/icons/utils/python_journey.png";
-import mencaoHonrosaOBMEP2024 from "/icons/utils/obmep2024.png";
-import mencaoHonrosaOBMEP2025 from "/icons/utils/obmep2025.jpg";
-import medalhaOBMEP from "/icons/utils/premiacao_obmep.png";
+import certificadoHashtagPython from "/certificates/python_journey.png";
+import mencaoHonrosaOBMEP2024 from "/certificates/obmep2024.png";
+import mencaoHonrosaOBMEP2025 from "/certificates/obmep2025.jpg";
+import medalhaOBMEP from "/certificates/premiacao_obmep.png";
 
 export default function About()
 {

@@ -3,12 +3,12 @@ import { SiCsswizardry } from "react-icons/si";
 import { GrSystem,GrDocker } from "react-icons/gr";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import mobiFoto from "/icons/projects/mobi/login.png";
-import dashboardFoto from "/icons/projects/mobi_dashboard/tela-inicio-dashboard.png";
-import fastInvestFoto from "/icons/projects/fast_invest/home.png";
-import locadoraFoto from "/icons/projects/locadora_php/home.png";
-import waveUp from "/icons/utils/wave-up.svg";
-import waveDown from "/icons/utils/wave-down.svg";
+import mobiFoto from "/projects/mobi/login.png";
+import dashboardFoto from "/projects/mobi_dashboard/tela-inicio-dashboard.png";
+import fastInvestFoto from "/projects/fast_invest/home.png";
+import locadoraFoto from "/projects/locadora_php/home.png";
+import waveUp from "/utils/wave-up.svg";
+import waveDown from "/utils/wave-down.svg";
 
 
 export default function ProjectsSummary(){

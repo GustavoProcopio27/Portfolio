@@ -56,8 +56,8 @@ export default function ProjectAcess({ projectName, publico, deployed, deployLin
                             {!publico ? <RiGitRepositoryPrivateFill size={20} className="self-center" /> : <RiGitRepositoryFill size={20} className="self-center" />}
                             </span>
                             <span>
-                                {t("projects_page.repo")}
                                 {!publico ? t("projects_page.public_status") : ''}
+                                {t("projects_page.repo")}
                             </span>
                         </a>
 
@@ -120,10 +120,10 @@ export default function ProjectAcess({ projectName, publico, deployed, deployLin
 
 
 
-        <div className="w-full flex justify-center items-center p-16">
+        <div className="w-full flex justify-center items-center p-16 ">
 
-            <div className="bg-teal-800 hover:shadow-2xl rounded-2xl p-4 hover:scale-105 transition-all ease-in-out duration-300 hover:ring-4 ring-teal-500">
-                <button onClick={() => navigate("/")} className="bg-linear-to-r from-teal-400  to-ghostwhite bg-clip-text text-transparent font-bold cursor-pointer">
+            <div onClick={() => navigate("/")} className="bg-teal-800 hover:shadow-2xl rounded-2xl p-4 hover:scale-105 transition-all ease-in-out duration-300 hover:ring-4 ring-teal-500 cursor-pointer">
+                <button  className="bg-linear-to-r from-teal-400  to-ghostwhite bg-clip-text text-transparent font-bold cursor-pointer">
                     {t("projects_page.back")}
                 </button>
             </div>

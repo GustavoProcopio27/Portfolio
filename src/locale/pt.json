@@ -82,13 +82,13 @@
         "env": "Ambientes",
         "feat": "Principais funcionalidades",
         "learn": "Aprendizado",
-        "public_status": " privado",
+        "public_status": "privado ",
         "repo": "repositório",
         "back": "Retornar à página inicial",
         "deploy_status": "sem deploy"
     },    
     "mobi":{
-        "description1": "O Mobi é uma aplicação mobile interativa desenvolvida para a coleta de dados relacionados ao transporte urbano e ao deslocamento de alunos e funcionários do CEFET - RJ.A ferramenta busca fomentar melhorias na experiência de mobilidade da comunidade acadêmica a partir da análise de dados reais.",
+        "description1": "O Mobi é uma aplicação mobile interativa desenvolvida para a coleta de dados relacionados ao transporte urbano e ao deslocamento de alunos e funcionários do CEFET - RJ. A ferramenta busca fomentar melhorias na experiência de mobilidade da comunidade acadêmica a partir da análise de dados reais.",
         "description2": "A plataforma tem como objetivo apoiar a compreensão  dos padrões de mobilidade da comunidade acadêmica, contribuindo para a identificação de gargalos, otimização de rotas e melhoria da experiência de deslocamento diário.",
         "description3": "O foco central do projeto está na está na coleta e análise de dados reais de mobilidade, permitindo a geração de informações relevantes para o planejamento urbano e institucional.",
         "description4": "Além disso, o sistema oferece funcionalidades visualização de rotas em mapas, localização em tempo real, autenticação de usuários e integração com serviços externos, proporcionando uma experiência interativa, segura e informativa para os usuários.",

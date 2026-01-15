@@ -1,4 +1,4 @@
-import foto from "/icons/utils/me.jpg"
+import foto from "/upload/me.jpg"
 import { FaFileWord } from "react-icons/fa6";
 import { FaFilePdf } from "react-icons/fa6";
 

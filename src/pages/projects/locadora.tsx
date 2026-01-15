@@ -7,13 +7,13 @@ import TechStack from "../../components/projects/techstack";
 import ProjectAcess from "../../components/projects/access";
 
 
-import cadastro_carro from "/icons/projects/locadora_php/cadastro_carro.png";
-import cadastro from "/icons/projects/locadora_php/cadastro.png";
-import home from "/icons/projects/locadora_php/home.png";
-import login from "/icons/projects/locadora_php/login.png";
-import modal from "/icons/projects/locadora_php/modal.png";
-import principal_carros from "/icons/projects/locadora_php/search.png";
-import tabela from "/icons/projects/locadora_php/tabela_administracao.png";
+import cadastro_carro from "/projects/locadora_php/cadastro_carro.png";
+import cadastro from "/projects/locadora_php/cadastro.png";
+import home from "/projects/locadora_php/home.png";
+import login from "/projects/locadora_php/login.png";
+import modal from "/projects/locadora_php/modal.png";
+import principal_carros from "/projects/locadora_php/search.png";
+import tabela from "/projects/locadora_php/tabela_administracao.png";
 import { SiComposer, SiPhp, SiXampp } from "react-icons/si";
 import { FaCss3Alt, FaHtml5, FaJs, FaWindows } from "react-icons/fa6";
 import { IcoPhpMailer } from "../../components/utils/icons";
