@@ -18,7 +18,6 @@ export default function Footer(){
                     <IoMailSharp size={20} className="shrink-0" />
                     <a
                         href="mailto:gustavoprocopio727@gmail.com"
-                        target="_blank"
                         rel="noopener noreferrer"
                         className="no-underline max-[500px]:text-xs max-[360px]:break-all max-[360px]:text-[0.5rem] text-lg align-middle group transition duration-300"
                     >
