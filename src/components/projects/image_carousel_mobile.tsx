@@ -6,7 +6,7 @@ import { useState } from "react"
 
 interface ImagensCarrosel {imagens:string[];}
 
-export default function DashboardCarousel({ imagens }: ImagensCarrosel)
+export default function ImageCarouselMob({ imagens }: ImagensCarrosel)
 {
     const [imagemAtual, setImagemAtual] = useState(0);
     const imagemAtualIndex=imagemAtual+1
@@ -22,7 +22,7 @@ export default function DashboardCarousel({ imagens }: ImagensCarrosel)
 
 
     return (
-        <div id="Carousel" className="w-full h-100 flex items-start relative mt-12 mb-12">
+        <div id="Carousel" className="w-full flex items-start relative mt-12 mb-12">
 
 
             <div className="absolute top-1/2 left-0 z-60 hover:text-gray-600 transition-all ease-in-out duration-150">
@@ -35,7 +35,7 @@ export default function DashboardCarousel({ imagens }: ImagensCarrosel)
 
 
 
-            <div className="w-full flex items-center gap-4 m-0">
+            <div className="w-full flex justify-center items-center gap-4 m-0">
 
 
                 {/* Anterior */}
@@ -44,7 +44,7 @@ export default function DashboardCarousel({ imagens }: ImagensCarrosel)
                         <img
                             src={imagens[imagemAnterior]}
                             alt={`img-n${imagemAnteriorIndex}`}
-                            className="w-90 sm:w-130 md:w-180 h-auto rounded-xl"
+                            className="w-80 max-[1152px]:w-5xl h-auto rounded-xl"
                         />
                     </div>
                 </div>          
@@ -55,7 +55,7 @@ export default function DashboardCarousel({ imagens }: ImagensCarrosel)
                         <img
                             src={imagens[imagemAtual]}
                             alt={`img-n${imagemAtualIndex}`}
-                            className="w-110 sm:w-160 md:w-230 h-auto rounded-xl"
+                            className="w-90 max-[1152px]:w-5xl h-auto rounded-xl"
                         />
                     </div>
                 </div>
@@ -66,7 +66,7 @@ export default function DashboardCarousel({ imagens }: ImagensCarrosel)
                         <img
                             src={imagens[proximaImagem]}
                             alt={`img-n${proximaImagemIndex}`}
-                            className="w-90 sm:w-130 md:w-180 h-auto rounded-xl"
+                            className="w-80 max-[1152px]:w-5xl  h-auto rounded-xl"
                         />
                     </div>
                 </div>

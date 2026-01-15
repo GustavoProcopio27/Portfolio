@@ -4,7 +4,8 @@ import { SlOptionsVertical } from "react-icons/sl";
 import { IoMdCloseCircle } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 
-export default function Navbar()
+interface projectName { projectName :string}
+export default function Navbar({ projectName }:projectName)
 {
     const [isModalVisible,setIsModalVisible]=useState(false)
     const { t, i18n } = useTranslation();
@@ -23,7 +24,7 @@ export default function Navbar()
 
                 {/* Portfolio escrito bem grande */}
                 <div className="bg-linear-to-r from-teal-800 to-teal-400 bg-clip-text text-transparent font-extrabold text-5xl flex-nowrap">
-                    MOBI-DASHBOARD
+                    {projectName}
                 </div>
 
 
@@ -32,19 +33,23 @@ export default function Navbar()
                 {/* Links de Navegação */}
                 <div className="flex flex-row justify-evenly items-center w-full max-lg:hidden flex-wrap">
                     <div className="flex justify-center items-end text-3xl font-extrabold text-text-terciary">
-                        <a href="#Carousel">Imagens</a>
+                        <a href="#Carousel">{t("projectNav.images")}</a>
                     </div>
 
                     <div className="flex justify-center items-end text-3xl font-extrabold text-text-terciary">
-                        <a href="#Description">Descrição</a>
+                        <a href="#Description">{t("projectNav.description")}</a>
                     </div>
 
                     <div className="flex justify-center items-end text-3xl font-extrabold text-text-terciary">
-                        <a href="#Features">Funcionalidades</a>
+                        <a href="#Tech">{t("projectNav.tech")}</a>
                     </div>
 
                     <div className="flex justify-center items-end text-3xl font-extrabold text-text-terciary">
-                        <a href="#Contatos">{t("navbar.contact")}</a>
+                        <a href="#Features">{t("projectNav.features")}</a>
+                    </div>
+
+                    <div className="flex justify-center items-end text-3xl font-extrabold text-text-terciary">
+                        <a href="#Contatos">{t("projectNav.contact")}</a>
                     </div>
 
                 </div>
@@ -85,19 +90,23 @@ export default function Navbar()
             <div className="flex justify-end"><IoMdCloseCircle onClick={()=>setIsModalVisible(false)} className="text-ghostwhite" size={35}/></div>
             
             <div className="flex justify-center items-end text-3xl font-extrabold text-ghostwhite">
-                <a href="#Sobre">Imagens</a>
+                <a href="#Carousel">{t("projectNav.images")}</a>
             </div>
 
             <div className="flex justify-center items-end text-3xl font-extrabold text-ghostwhite">
-                <a href="#Description">Descrição</a>
+                <a href="#Description">{t("projectNav.description")}</a>
             </div>
 
             <div className="flex justify-center items-end text-3xl font-extrabold text-ghostwhite">
-                <a href="#Features">Funcionalidades</a>
+                <a href="#Tech">{t("projectNav.tech")}</a>
             </div>
 
             <div className="flex justify-center items-end text-3xl font-extrabold text-ghostwhite">
-                <a href="#Contatos">Contato</a>
+                <a href="#Features">{t("projectNav.features")}</a>
+            </div>
+
+            <div className="flex justify-center items-end text-3xl font-extrabold text-ghostwhite">
+                <a href="#Contatos">{t("projectNav.contact")}</a>
             </div>
 
             <div>
