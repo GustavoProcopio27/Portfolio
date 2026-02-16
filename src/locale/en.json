@@ -11,7 +11,11 @@
         "name": "Hi, i´m Gustavo Procópio",
         "iam": "I´m an ",
         "profession": "IT Technician ",
-        "graduation_experience": "graduated fro CEFET-RJ, with hands-on experience in full-stack development, REST API creation, and data analysis and visualization",
+        "technical_experience": "graduated from CEFET-RJ, with hands-on experience in full-stack development, REST API creation, and data analysis and visualization. ",
+        "graduation_1": "Currently i´m majoring ",
+        "graduation_field": "Computer Science ",
+        "graduation_2": "at UFRRJ.",        
+        
         "work_front": "I´ve worked with web and mobile projects",
         "tech_front": "(React, React Native) ",
         "work_back": "and backend development using ",
@@ -40,8 +44,19 @@
         "education":{
             "text":"What is your academic background?",
             "main":"High school",
-            "technical":"Technical Degree in IT"
+            "technical":"Technical Degree in IT",
+            "graduation": "Bachelor´s degree in Computer Science ",
+            "time":"Current"
         },
+        "experience":{
+            "text":"What experience do you have",
+            "jobs": {
+                "intern":{
+                    "job": "Internship as Full Stack Developer",
+                    "place": "CEFET-RJ/UNED NI",
+                    "time": "july/2025 — january/2026"
+                }  
+        }},
         "certificates":{
             "text":"What certificates do you have?",
             "obmep2024": "- Honorable mention at the 19ª 'Olimpíada Brasileira de Matemática das Escolas Públicas' – OBMEP 2024.",

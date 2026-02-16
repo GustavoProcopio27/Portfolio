@@ -17,7 +17,6 @@ export default function About()
     const [isModalOBMEPMedalVisible, setIsModalOBMEPmedalVisible] = useState(false)
 
     const { t }=useTranslation()
-
     return(
         <>
         <section id="Sobre" className="flex flex-col gap-6 p-12">
@@ -30,11 +29,11 @@ export default function About()
                 </summary>
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
-                    <ul>
-                        <li>{t("about.skills.languages")}: Java, Python, PHP, JavaScript, HTML, CSS, Markdown.</li><br />
-                        <li>Frameworks: Flask, Streamlit, Spring.</li><br />
-                        <li>{t("about.skills.tools")}: Docker, Linux, Windows, Git, MySQL.</li><br />
-                        <li>Soft-Skills: {t("about.skills.soft-skills")}</li><br />
+                    <ul className="flex flex-col gap-3">
+                        <li>{t("about.skills.languages")}: Java, Python, React, JavaScript, HTML, CSS, Markdown,PHP.</li>
+                        <li>Frameworks: Flask, Streamlit, Spring, React Native.</li>
+                        <li>{t("about.skills.tools")}: Docker, Linux, Windows, Git, MySQL.</li>
+                        <li>Soft-Skills: {t("about.skills.soft-skills")}</li>
                     </ul>
                 </div>
             </details>
@@ -53,8 +52,10 @@ export default function About()
 
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
-                    <p>{t("about.languages.portuguese")}</p><br />
-                    <p>{t("about.languages.english")}</p>
+                    <ul className="flex flex-col gap-3">
+                    <li>{t("about.languages.portuguese")}</li>
+                    <li>{t("about.languages.english")}</li>
+                    </ul>
                 </div>
             </details>
 
@@ -73,12 +74,34 @@ export default function About()
 
 
                 <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
-                    <p>{t("about.education.main")} - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca (2023-2025)</p><br />
-                    <p>{t("about.education.technical")} - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca (2023-2025)</p>
+                    <ul className="flex flex-col gap-3">
+                    <li className="text-justify">{t("about.education.main")} - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca <i>(2023-2025)</i></li>
+                    <li className="text-justify">{t("about.education.technical")} - Centro Federal de Educação Tecnologica Celso Suckow da Fonseca <i>(2023-2025)</i></li>
+                            <li className="text-justify">{t("about.education.graduation")} - Universidade Federal Rural do Rio de Janeiro <i>(2026 - {t("about.education.time")} )</i></li>
+                    </ul>
                 </div>
             </details>
 
+            <details className="group border-2 p-2 rounded-2xl border-teal-600 hover:bg-linear-to-r hover:from-ghostwhite hover:to-[#e4e4f8]">
+                <summary className="list-none flex items-center gap-2 text-txt-primary hover:text-teal-600">
+                    <span className="group-open:hidden"><FaPlusCircle size={25} /></span>
+                    <span className="hidden group-open:inline"><FaMinusCircle size={25} /></span>
+                    <span className="text-2xl font-semibold">{t("about.experience.text")}</span>
+                </summary>
 
+
+
+                <div className="bg-teal-700 p-6 rounded-2xl mt-8 text-xl text-ghostwhite font-semibold transition-all duration-400  hover:bg-linear-to-r  hover:from-teal-600  hover:to-teal-700">
+                    <ul className="flex flex-col gap-3">
+                        <li className="flex justify-between">
+                                <b>{ t("about.experience.jobs.intern.job") }</b>
+                                <p>{t("about.experience.jobs.intern.place")}</p>
+                                <i>({t("about.experience.jobs.intern.time")})</i>
+                         </li>
+
+                    </ul>
+                </div>
+            </details>
 
 
 

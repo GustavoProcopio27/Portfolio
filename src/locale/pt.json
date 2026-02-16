@@ -10,7 +10,10 @@
         "name": "Oi, sou Gustavo Procópio",
         "iam": "Sou um ",
         "profession": "técnico em Informática ",
-        "graduation_experience": "formado no CEFET-RJ, com experiência prática em desenvolvimento full-stack, criação de APIs REST e análise e visualização de dados.",
+        "technical_experience": "formado no CEFET-RJ, com experiência prática em desenvolvimento full-stack, criação de APIs REST e análise e visualização de dados. ",
+        "graduation_1": "Atualmente estou cursando graduação em ",  
+        "graduation_field":"Ciência da Computação ",
+        "graduation_2":"na UFRRJ.",
         "work_front": "Trabalhei com projetos web e mobile ",
         "tech_front": "(React, React Native) ",
         "work_back": "e backend usando ",
@@ -38,7 +41,20 @@
         "education": {
             "text": "Qual formação acadêmica você tem?",
             "main": "Ensino médio",
-            "technical": "Curso técnico em Informática"
+            "technical": "Curso técnico em Informática",
+            "graduation": "Bacharelado em Ciência da Computação",
+            "time":"Atualmente"
+        },
+        "experience": {
+            "text": "Qual experiência você possui?",
+            "jobs":{
+                    "intern":{
+                        "job": "Estágio como desenvolvedor Full Stack",
+                        "place": "CEFET-RJ/UNED NI",
+                        "time": "julho/2025 — janeiro/2026"
+                    }
+                }
+                
         },
         "certificates": {
             "text": "Quais certificações você possui?",

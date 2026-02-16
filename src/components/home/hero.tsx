@@ -15,7 +15,16 @@ export default function Hero()
                 <p className="bg-linear-to-r from-teal-950 to-teal-600 bg-clip-text text-transparent font-bold text-4xl text-center">{t("hero.name")}</p>
 
                 <span className="text-justify p-8 text-xl">
-                    <p>{t("hero.iam")}<b>{t("hero.profession")}</b>{t("hero.graduation_experience")}</p>
+                    <p>
+                    
+                    {t("hero.iam")}
+                    <b>{t("hero.profession")}</b>
+                    {t("hero.technical_experience")}
+                    {t("hero.graduation_1")}
+                    <b>{t("hero.graduation_field")}</b>
+                    {t("hero.graduation_2")}
+                    
+                    </p>
                     
                     <p>{t("hero.work_front")}<b>{t("hero.tech_front")}</b>{t("hero.work_back")}<b>{t("hero.tech_back1")}</b>{t("hero.&")}<b>{t("hero.tech_back2")}</b>
                     {t("hero.skills1")}<b>{t("hero.skills2")}</b></p>

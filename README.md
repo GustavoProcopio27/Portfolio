@@ -60,6 +60,6 @@ npm run dev
 #### 📞 Telefone: +55 (21) 98090-4401 
 ####  💼 Linkedin: [linkedin.com/in/gustavo-procopio](https://linkedin.com/in/gustavo-proc%C3%B3pio)
 
-<p style="text-align:center;margin-top:4rem">
-    <img src="./public/utils/sprigatito_jumping.gif" alt="Sprigatito" style="border-radius:16px;border:3px solid green; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"/>
+<p align="center" style="margin-top:4rem">
+    <img  src="./public/utils/sprigatito_jumping.gif" alt="Sprigatito" style="border-radius:16px;border:3px solid green; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"/>
 </p>
