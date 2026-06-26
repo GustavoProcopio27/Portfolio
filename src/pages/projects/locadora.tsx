@@ -72,16 +72,19 @@ export default function LocadoraCefet() {
             <Separator />
 
             <TechStack
-                backend_base={<SiPhp size={35} />}
-                frontend_base={<FaJs size={35} />}
-                backend={<TechIcon icon={<IcoPhpMailer />} label="PHP Mailer" />}
-                frontend={
+                logical_base={<SiPhp size={35} />}
+                logical_label="Backend"
+                presentation_base={<FaJs size={35} />}
+                presentation_label="Frontend"
+                logical={<TechIcon icon={<IcoPhpMailer />} label="PHP Mailer" />}
+                presentation={
                         <>
                         <TechIcon icon={<FaHtml5 />} label="HTML" />
                         <TechIcon icon={<FaCss3Alt />} label="CSS" /> 
                         </>
                         }
-                database={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                persistence={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                persistence_label={t("projects_page.db")}
                 devops_environ={
                                 <>
                                     <TechIcon icon={<SiXampp />} label="Xampp" />

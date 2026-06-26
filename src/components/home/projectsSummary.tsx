@@ -1,5 +1,7 @@
 import { DiMysql, DiPhp, DiJsBadge, DiHtml5, DiJava, DiPython, DiReact, DiAndroid } from "react-icons/di";
 import { SiCsswizardry } from "react-icons/si";
+import { GoFileBinary } from "react-icons/go";
+import { SiC } from "react-icons/si";
 import { GrSystem,GrDocker } from "react-icons/gr";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -7,6 +9,8 @@ import mobiFoto from "/projects/mobi/login.png";
 import dashboardFoto from "/projects/mobi_dashboard/tela-inicio-dashboard.png";
 import fastInvestFoto from "/projects/fast_invest/home.png";
 import locadoraFoto from "/projects/locadora_php/home.png";
+import echoboundFoto from "/projects/echobound/tela_inicial.png";
+
 import waveUp from "/utils/wave-up.svg";
 import waveDown from "/utils/wave-down.svg";
 
@@ -34,10 +38,10 @@ export default function ProjectsSummary(){
                 {/* ------------------------------------------------ MOBI ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl p-6 border-4 border-[#fb4b14] shadow-xl hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200  flex flex-col justify-center gap-4">
                     <img className="self-center border-2 border-[#fb4b14] rounded-xl shadow-xl hover:scale-102 w-72 h-72" src={mobiFoto} alt="mobi"/>
-                    <h1 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-5xl"> MOBI</h1>
+                    <h1 className="text-center bg-linear-to-r from-[#f8825e] to-[#fb4b14] bg-clip-text text-transparent font-extrabold text-5xl"> MOBI</h1>
                     <span className="text-justify">{t("projects.mobiText")}</span>
                     
-                    <h2 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
+                    <h2 className="text-center bg-linear-to-r from-[#f8825e] to-[#fb4b14] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
                     <ul>
                         <li className="flex flex-row gap-2 items-center">
                             <span><DiReact size={30}/></span>
@@ -92,10 +96,10 @@ export default function ProjectsSummary(){
                 {/* ------------------------------------------------    MOBI-DASHBOARD ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl p-6 border-4 border-[#fb4b14] shadow-xl hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 flex flex-col justify-center gap-4">
                     <img className=" border-2 border-[#fb4b14] rounded-xl shadow-xl hover:scale-102" src={dashboardFoto} alt="mobi-dashboard" />
-                    <h1 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-5xl break-all"> MOBI-DASHBOARD</h1>
+                    <h1 className="text-center bg-linear-to-r from-[#f8825e] to-[#fb4b14] bg-clip-text text-transparent font-extrabold text-5xl break-all"> MOBI-DASHBOARD</h1>
                     <span className="text-justify">{t("projects.mobiDashboardText")}</span>
 
-                    <h2 className="text-center bg-linear-to-r from-[#fb4b14] to-[#ec6e48] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
+                    <h2 className="text-center bg-linear-to-r from-[#f8825e] to-[#fb4b14] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
                     <ul>
                         <li className="flex flex-row gap-2 items-center">
                             <span><DiReact size={30} /></span>
@@ -152,10 +156,10 @@ export default function ProjectsSummary(){
                 {/* ------------------------------------------------ FAST-INVEST ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl border-4 p-6 border-[#009f5c] hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 shadow-xl flex flex-col justify-center gap-4 ">
                     <img className=" border-2 border-[#009f5c] rounded-xl shadow-xl hover:scale-102" src={fastInvestFoto} alt="fastinvest" />
-                    <h1 className="text-center bg-linear-to-r from-[#00b366] to-[#009f5c] bg-clip-text tenxt-trasparent font-extrabold text-5xl break-all">FAST-INVEST</h1>
+                    <h1 className="text-center bg-linear-to-r from-[#00b366] to-[#014d2d] bg-clip-text text-transparent font-extrabold text-5xl break-all">FAST-INVEST</h1>
                     <span className="text-justify">{t("projects.fastInvestText")}</span>
 
-                    <h2 className="text-center bg-linear-to-r from-[#00b366] to-[#009f5c] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
+                    <h2 className="text-center bg-linear-to-r from-[#00b366] to-[#014d2d] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
                     <ul>
                         <li className="flex flex-row gap-2 items-center">
                             <span><DiReact size={30} /></span>
@@ -202,10 +206,10 @@ export default function ProjectsSummary(){
                 {/* ------------------------------------------------ LOCADORA PHP ------------------------------------------------ */}
                 <div className="bg-ghostwhite rounded-2xl border-4 p-6 border-gray-700 hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 shadow-xl flex flex-col justify-center gap-4">
                     <img className="border-3 rounded-xl border-[#b951d8] shadow-xl hover:scale-102" src={locadoraFoto} alt="locadora php" />
-                    <h1 className="text-center bg-linear-to-r from-black to-[#b951d8] bg-clip-text tenxt-trasparent font-extrabold text-5xl break-all"> Locadora PHP</h1>
+                        <h1 className="text-center bg-linear-to-r from-[#b951d8] to-black bg-clip-text text-transparent font-extrabold text-5xl break-all"> Locadora PHP</h1>
                     <span className="text-justify">{t("projects.locadoraCefetText")}</span>
 
-                    <h2 className="text-center bg-linear-to-r from-black to-[#b951d8] bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
+                    <h2 className="text-center bg-linear-to-r from-[#b951d8] to-black bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
                     <ul>
                         <li className="flex flex-row gap-2 items-center">
                             <span className="flex flex-row gap-2"><DiHtml5 size={25} /><SiCsswizardry size={25} /><DiJsBadge size={25} /></span>
@@ -231,6 +235,39 @@ export default function ProjectsSummary(){
                 </div>
 
 
+
+
+
+                {/* ------------------------------------------------ Echobound ------------------------------------------------ */}
+                <div className="bg-ghostwhite rounded-2xl border-4 p-6 border-amber-500 hover:shadow-2xl hover:scale-102 transition-all ease-in-out duration-200 shadow-xl flex flex-col justify-center gap-4">
+                    <img className="border-3 rounded-xl border-amber-500 shadow-xl hover:scale-102" src={echoboundFoto} alt="Echobound" />
+                    <h1 className="text-center bg-linear-to-r from-amber-500 to-amber-700 bg-clip-text text-transparent font-extrabold text-5xl break-all"> Echobound </h1>
+                    <span className="text-justify">{t("projects.echoboundText")}</span>
+
+                    <h2 className="text-center bg-linear-to-r from-amber-500 to-amber-700 bg-clip-text text-transparent font-extrabold text-3xl">{t("projects.mainTech")}</h2>
+                    <ul>
+                        <li className="flex flex-row gap-2 items-center">
+                            <span className="flex flex-row gap-2"><SiC size={25} /></span>
+                            <span>C</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><GrDocker size={30} /></span>
+                            <span>Docker</span>
+                        </li>
+
+                        <li className="flex flex-row gap-2 items-center">
+                            <span><GoFileBinary size={30} /></span>
+                            <span>{t("echobound.file")}</span>
+                        </li>
+                    </ul>
+
+                    <div className="flex justify-center items-end">
+                            <button onClick={() => navigate("/projects/echobound")} className="cursor-pointer pt-3 pb-3 pl-6 pr-6 w-48 bg-[#ffaf02] active:scale-95 font-semibold hover:bg-[#b46600] hover:text-ghostwhite  uppercase text-white rounded-2xl transition-transform duration-150 ease-in-out ">
+                            {t("projects.moreInfo")}
+                        </button>
+                    </div>
+                </div>
 
 
 

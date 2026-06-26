@@ -91,15 +91,17 @@ export default function Mobi() {
             <Separator />
 
             <TechStack
-                backend_base={<FaJava size={35} />}
-                frontend_base={<SiTypescript size={35} />}
-                backend={
+                logical_base={<FaJava size={35} />}
+                logical_label="Backend"
+                presentation_base={<SiTypescript size={35} />}
+                presentation_label="Frontend"
+                logical={
                         <>
                             <TechIcon icon={<SiSpringboot />} label="Springboot" />
                             <TechIcon icon={<SiSpringsecurity />} label="Spring Security" />
                         </>
                         }
-                frontend={
+                presentation={
                         <>
                             <TechIcon icon={<FaReact />} label="React Native" />
                             <TechIcon icon={<MdPolyline/>} label="Polyline" />
@@ -107,7 +109,8 @@ export default function Mobi() {
                             <TechIcon icon={<FaAndroid />} label="Android" />
                         </>
                         }
-                database={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                persistence={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                persistence_label={t("projects_page.db")}
                 devops_environ={
                                 <>
                                     <TechIcon icon={<FaDocker />} label="Docker" />

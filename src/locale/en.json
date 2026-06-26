@@ -72,7 +72,8 @@
         "mobiText": "Mobi is an interactive mobile application developed to collect data on urban transportation and the movement of students and staff at CEFET-RJ. The tool also aims to promote improvements in the mobility experience of the academic community, based on real data.",
         "mobiDashboardText": "Mobi Dashboards is an interactive web application developed for visualizing and extracting insights from urban transport and commuting data for students and staff at CEFET-RJ. The tool also aims to foster improvements in the mobility experience of the academic community, based on real data collected via the MOBI app.",
         "fastInvestText": "Fast Invest is an interactive web application aimed at investors who want to organize, analyze, and track their investments in a practical and personalized way. The platform was designed to offer advanced tools for filtering, monitoring, and analyzing stocks, helping users make informed and strategic decisions in the financial market.",
-        "locadoraCefetText": "This work was developed during Web Development classes at CEFET-RJ UNED Nova Iguaçu. During development, we had our first contactHTTP methods and CRUD operations."
+        "locadoraCefetText": "This work was developed during Web Development classes at CEFET-RJ UNED Nova Iguaçu. During development, we had our first contactHTTP methods and CRUD operations.",
+        "echoboundText": "Rogue-Like RPG game developded for the Structured Programming Discipline at UFFRJ-campus Nova Iguaçu. During the development we practiced file manipulation, memory allocation and management and codebase organization in C language."
     },
     "contacts":"Contacts",
     "copyrightText":"All rights reserved",
@@ -91,9 +92,13 @@
         "contact": "Contact"
     },
     "projects_page":{
+        "language": "Language",
+
         "title1":"Description",
         "title2":"Technologies used",
         "db":"Database",
+        "persistence":"Persistence",
+
         "env":"Environment",
         "feat":"Main features",
         "learn":"Learnings",
@@ -210,6 +215,36 @@
         "learningText1": "Hands-on learning about creating, reading, updating, and deleting data using PHP integrated with a relational database.",
         "learningText2": "Use of session variables and cookies to control authentication, access permissions, and persistence of user information.",
         "learningText3": "Implementation of email sending features, including password recovery, using the SMTP protocol for secure communication."
-    }
+    },
+    "echobound": {
+        "description1": "Echobound is a narrative Rogue-Like RPG  developed in C using the ncurses library. The project was created as an assignment for a Structured Programming course, focusing on software architecture, modular design, and terminal-based game development.",
+        "description2": "Inspired by Undertale's combat system, the game combines real-time battles, an original story, exploration, and meaningful player choices. Throughout the adventure, players face unique bosses, collect equipment, improve their character, and make decisions that shape the story.",
+        "description3": "The application was designed with a modular architecture, separating combat, narrative, player management, inventory, and data persistence into independent systems. It also includes character creation, multiple endings, binary save files, and Linux support.",
+        "description4": "Beyond the game itself, the project includes UML diagrams, complete technical documentation, Docker-based testing, and collaborative development using Git and GitHub, closely simulating a real-world software engineering workflow.",
+        
+        "featureTitle1": "Combat System",
+        "featureTitle2": "Story & Choices",
+        "featureTitle3": "Equipment System",
+        "featureTitle4": "Data Persistence",
 
+        "featureText1": "Real-time combat inspired by Undertale, featuring attack patterns, collision detection, player movement, dodge mechanics, and unique boss encounters.",
+        "featureText2": "An original chapter-based story featuring interactive dialogue, a karma system, and multiple endings determined by the player's decisions.",
+        "featureText3": "Inventory management with weapons, armor, and consumables that modify character attributes and enable different gameplay strategies.",
+        "featureText4": "Save and load functionality implemented with binary files, preserving player progression, equipment, and character data between sessions.",
+        
+        "learningsTitle1": "Structured Programming in C:",
+        "learningsTitle2": "File Handling:",
+        "learningsTitle3": "Game Development:",
+        "learningsTitle4": "Development Tools:",
+
+        "learningText1": "Practical experience with structs, pointers, dynamic memory allocation, memory management, and organizing medium-sized C projects.",
+        "learningText2": "Implementation of binary file persistence for storing complete player progress and game state.",
+        "learningText3": "Development of combat mechanics, game state management, terminal rendering with ncurses, collision detection, inventory systems, and narrative progression.",
+        "learningText4": "Hands-on experience with Git, GitHub, Docker, GCC, Makefile, and UML diagrams throughout the software development lifecycle.",
+        
+        
+        "file": "Binary Files",
+        "none": "None",
+        "save": "Binary File Save System"
+    }
 }

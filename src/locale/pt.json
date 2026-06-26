@@ -71,7 +71,8 @@
         "mobiText":"O Mobi é uma aplicação mobile interativa desenvolvida para coleta de a respeito dados de transporte urbano e deslocamento de alunos e funcionários do CEFET-RJ. A ferramenta visa também fomentar melhorias na experiência de mobilidade da comunidade acadêmica, com base em dados reais.",
         "mobiDashboardText":"O Mobi Dashboards é uma aplicação web interativa desenvolvida para visualização e extração de insights a partir dos dados de transporte urbano e deslocamento de alunos e funcionários do CEFET-RJ. A ferramenta visa também fomentar melhorias na experiência de mobilidade da comunidade acadêmica, com base em dados reais coletados via aplicativo MOBI.",
         "fastInvestText":"O Fast Invest é uma aplicação web interativa voltada para investidores que desejam organizar, analisar e acompanhar seus investimentos de forma prática e personalizada. A plataforma foi projetada para oferecer ferramentas avançadas de filtragem, monitoramento e análise de ações, auxiliando o usuário a tomar decisões informadas e estratégicas no mercado financeiro.",
-        "locadoraCefetText":"Trabalho desenvolvido nas aulas de Web no CEFET-RJ UNED Nova Iguaçu. Durante o desenvolvimento ocorreu o primeiro contato com métodos HTTP e operações"
+        "locadoraCefetText":"Trabalho desenvolvido nas aulas de Web no CEFET-RJ UNED Nova Iguaçu. Durante o desenvolvimento ocorreu o primeiro contato com métodos HTTP e operações",
+        "echoboundText":"Jogo RPG Rogue-Like desenvolvido na disciplina de Programação Estruturada na UFFRJ-campus Nova Iguaçu. Durante o desenvolvimento foi praticado a manipulação de arquivos, alocação e gerencimento de memória e organização de codebase na linguagem C."
     },
     "contacts": "Contatos",
     "copyrightText": "Todos os direitos reservados",
@@ -92,8 +93,10 @@
         "contact":"Contato"
     },
     "projects_page": {
+        "language":"Linguagem",
         "title1": "Descrição",
         "title2": "Tecnológias utilizadas",
+        "persistence": "Persistência",
         "db": "Banco de Dados",
         "env": "Ambientes",
         "feat": "Principais funcionalidades",
@@ -214,6 +217,37 @@
         "learningText1": "Aprendizado prático sobre criação, leitura, atualização e exclusão de dados utilizando PHP integrado a banco de dados relacional.",
         "learningText2": "Uso de variáveis de sessão e cookies para controle de autenticação, permissões de acesso e persistência de informações do usuário.",
         "learningText3": "Implementação de funcionalidades de envio de e-mails, incluindo recuperação de senha, utilizando o protocolo SMTP para comunicação segura."
+    },
+    
+    "echobound": {
+        "description1": "Echobound é um RPG narrativo desenvolvido em C utilizando a biblioteca ncurses. O projeto foi criado como avaliação da disciplina de Programação Estruturada, com foco na aplicação de conceitos de arquitetura de software, modularização e desenvolvimento de jogos em ambiente de terminal.",
+        "description2": "Inspirado pelo sistema de combate de Undertale, o jogo combina batalhas em tempo real, narrativa original, exploração e tomadas de decisão. Durante a aventura, o jogador enfrenta diferentes chefes, coleta equipamentos, evolui seus atributos e faz escolhas que alteram o rumo da história.",
+        "description3": "Toda a aplicação foi desenvolvida de forma modular, separando sistemas de combate, narrativa, gerenciamento de personagens, inventário e persistência de dados. O projeto também conta com sistema de criação de personagem, múltiplos finais, salvamento em arquivos binários e execução em ambiente Linux.",
+        "description4": "Além do desenvolvimento do jogo, também foram produzidos diagramas UML, documentação técnica completa, testes em ambiente Docker e organização do projeto utilizando Git e GitHub, proporcionando uma experiência próxima ao desenvolvimento de um software de médio porte.",
+
+        "featureTitle1": "Sistema de Combate:",
+        "featureTitle2": "Narrativa e Escolhas:",
+        "featureTitle3": "Sistema de Equipamentos:",
+        "featureTitle4": "Salvamento de Progreso:",
+
+        "featureText1": "Combate em tempo real inspirado em Undertale, com padrões de ataque, sistema de colisão, movimentação do jogador, esquiva e diferentes mecânicas para cada chefe.",
+        "featureText2": "História original dividida em capítulos, diálogos interativos, sistema de karma e múltiplos finais determinados pelas decisões do jogador durante a campanha",
+        "featureText3": "Sistema de inventário contendo armas, armaduras e consumíveis, permitindo alterar atributos do personagem e adaptar diferentes estratégias ao longo da aventura.",
+        "featureText4": "Código organizado em módulos independentes para combate, narrativa, objetos, inventário e sistema de salvamento, facilitando manutenção e expansão do projeto.",
+
+        "learningsTitle1": "Programação Estruturada em C:",
+        "learningsTitle2": "Manipulação de Arquivos:",
+        "learningsTitle3": "Desenvolvimento de Jogos:",
+        "learningsTitle4": "Ferramentas de Desenvolvimento:",
+
+        "learningText1": "Aplicação prática de structs, ponteiros, alocação dinâmica, manipulação de memória e organização de grandes projetos utilizando a linguagem C.",
+        "learningText2": "Implementação de persistência utilizando arquivos binários para armazenar o progresso completo do jogador.",
+        "learningText3": "Criação de sistemas de combate, gerenciamento de estados, renderização em terminal com ncurses, colisões, inventário e progressão narrativa.",
+        "learningText4": "Uso de Git, GitHub, Docker, GCC, Makefile e diagramas UML durante todas as etapas do desenvolvimento.",
+        
+        "file":"Arquivos Binários",
+        "none":"Nenhuma",
+        "save":"Salvamento em Arquivos Binários"
     }
 
 

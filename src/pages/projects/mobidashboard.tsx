@@ -90,9 +90,10 @@ export default function MobiDashboard() {
             <Separator />
 
             <TechStack
-                backend_base={<FaPython size={35} />}
-                frontend_base={<FaJs size={35} />}
-                backend={
+                logical_base={<FaPython size={35} />}
+                logical_label="Backend"
+                presentation_base={<FaJs size={35} />}
+                logical={
                         <>
                             <TechIcon icon={<SiFlask />} label="Flask" />
                             <TechIcon icon={<SiStreamlit />} label="Streamlit" />
@@ -105,14 +106,16 @@ export default function MobiDashboard() {
                             <TechIcon icon={<IcoPlaywright />}label={"Playwright"}/>
                         </>
                         }
-                frontend={
+                presentation={
                         <>
                         <TechIcon icon={<FaReact />} label="React" />
                         <TechIcon icon={<SiReactrouter />} label="React Router" />
                         <TechIcon icon={<SiPrimereact />} label="PrimeReact" />
                         </>
                         }
-                database={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                presentation_label="Frontend"
+                persistence={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                persistence_label={ t("projects_page.db") }
                 devops_environ={
                                 <>
                                     <TechIcon icon={<FaDocker />} label="Docker" />

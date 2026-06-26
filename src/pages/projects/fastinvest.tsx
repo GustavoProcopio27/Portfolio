@@ -82,15 +82,17 @@ export default function FastInvest(){
             <Separator />
 
             <TechStack
-                backend_base={<FaJava size={35} />}
-                frontend_base={<FaJs size={35} />}
-                backend={
+                logical_base={<FaJava size={35} />}
+                logical_label="Backend"
+                presentation_base={<FaJs size={35} />}
+                presentation_label="Frontend"
+                logical={
                         <>
                         <TechIcon icon={<SiSpringboot />} label="Springboot" />
                         <TechIcon icon={<SiSpringsecurity />} label="Spring Security" />
                         </>
                         }
-                frontend={
+                presentation={
                         <>
                         <TechIcon icon={<FaReact />} label="React" />
                         <TechIcon icon={<p className="font-bold text-xl">{"< Recharts />"}</p>} label="Recharts" />
@@ -98,7 +100,8 @@ export default function FastInvest(){
                         <TechIcon icon={<SiAxios />} label="Axios" />
                         </>
                         }
-                database={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                persistence={<TechIcon icon={<DiMysql />} label="MySQL" />}
+                persistence_label={ t("projects_page.db") }
                 devops_environ={
                                 <>
                         <TechIcon icon={<FaDocker />} label="Docker" />
